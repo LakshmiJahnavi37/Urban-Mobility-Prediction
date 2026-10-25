@@ -22,13 +22,13 @@ Kaggle - **Traffic Prediction Dataset** (`data/raw/traffic.csv`, ~1.8 MB, 48,120
 4. **Evaluation**: MAE, RMSE, R2 using a time-based split (first 80% of timeline = train, last 20% = test)
 
 ## Results
-Fill from `outputs/results.csv` after running `train.py`:
+
 
 | Model | MAE | RMSE | R2 |
 |---|---|---|---|
-| Linear Regression | | | |
-| Random Forest | | | |
-| XGBoost | | | |
+| Linear Regression |3.21 |4.96 |0.9668|
+| Random Forest |2.97|4.84 |0.9684 |
+| XGBoost |3.01 |4.93 |0.9672 |
 
 Per-junction metrics: `outputs/results_per_junction.csv`. Plots: `outputs/plots/`.
 
